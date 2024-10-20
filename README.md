@@ -38,9 +38,10 @@ The training of the chatbot involves no traditional machine learning but instead
 
    ```json
   ## Dataset Preparation
-The dataset used for the chatbot is stored in a JSON file (`interview_data.json`) and is structured to include an array of questions, each associated with a list of possible responses. Here’s an example of the dataset format:
+The dataset used for the chatbot is stored in a JSON file (`interview_data.json`) and is structured to include an array of questions, each associated with a list of possible responses. Here’s an example of the dataset format:-
 
-```json
+
+'''json
 ## Dataset Preparation
 The dataset used for the chatbot is stored in a JSON file (`interview_data.json`) and is structured to include an array of questions, each associated with a list of possible responses. Here’s an example of the dataset format:
 
