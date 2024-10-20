@@ -37,7 +37,11 @@ The training of the chatbot involves no traditional machine learning but instead
    - An example of the dataset format is shown below:
 
    ```json
-  {
+  ## Dataset Preparation
+The dataset used for the chatbot is stored in a JSON file (`interview_data.json`) and is structured to include an array of questions, each associated with a list of possible responses. Here’s an example of the dataset format:
+
+```json
+{
   "questions": [
     {
       "question": "Tell me about yourself.",
@@ -172,61 +176,11 @@ The training of the chatbot involves no traditional machine learning but instead
     {
       "question": "How do you handle feedback?",
       "responses": [
-        "I appreciate feedback because it helps me improve and grow in my career.",
-        "I take feedback constructively and use it as an opportunity to learn and develop my skills.",
-        "I value feedback as it provides a new perspective and helps me see areas I may have overlooked.",
-        "I always listen carefully to feedback and make a conscious effort to apply it to my work.",
-        "Feedback motivates me to improve, and I make sure to incorporate it into future projects."
-      ]
-    },
-    {
-      "question": "Why did you leave your last job?",
-      "responses": [
-        "I am looking for new challenges and opportunities to grow professionally, which I believe this position offers.",
-        "I left my previous job to pursue further education and develop new skills that would benefit me in the long term.",
-        "I felt that I had learned everything I could from my last role and was ready for new challenges.",
-        "I’m seeking a role that aligns more closely with my long-term career goals.",
-        "I left my last job because I wanted to explore new opportunities and work in a field that I’m more passionate about."
-      ]
-    },
-    {
-      "question": "What do you know about our company?",
-      "responses": [
-        "I know that your company is a leader in the industry and is known for its innovation and commitment to quality.",
-        "I’ve been following your company’s work, and I’m impressed by the impact you’ve had in the community.",
-        "I know that your company is known for its strong values and excellent work culture, which is something that attracted me to this role.",
-        "I understand that your company is growing rapidly, and I’m excited about the opportunity to contribute to that growth.",
-        "I’ve researched your recent projects, and I’m really impressed by the innovative solutions your team has developed."
-      ]
-    },
-    {
-      "question": "How do you deal with conflict at work?",
-      "responses": [
-        "I address conflict by staying calm and listening to all parties involved, then working together to find a resolution.",
-        "I believe open communication is key to resolving conflict, and I always try to understand the other person's perspective.",
-        "When conflict arises, I prefer to address it directly and professionally to avoid any misunderstandings.",
-        "I focus on finding solutions rather than dwelling on the problem, and I work towards achieving a positive outcome for everyone involved.",
-        "I maintain a positive attitude and work collaboratively with my colleagues to resolve any differences."
-      ]
-    },
-    {
-      "question": "How do you stay organized?",
-      "responses": [
-        "I use a combination of to-do lists and task management tools to ensure I stay on top of my responsibilities.",
-        "I prioritize tasks based on deadlines and importance, which helps me stay organized and focused.",
-        "I use productivity apps like Trello and Google Calendar to keep track of my schedule and manage my time effectively.",
-        "I break down large projects into smaller, manageable tasks to stay organized and avoid feeling overwhelmed.",
-        "I regularly review my progress and adjust my tasks to ensure I’m meeting my goals."
-      ]
-    },
-    {
-      "question": "How would you describe your work style?",
-      "responses": [
-        "I am detail-oriented and enjoy working in an organized, structured environment.",
-        "I work well under pressure and thrive in fast-paced environments.",
-        "I am a collaborative worker who enjoys working with teams to achieve common goals.",
-        "I am self-motivated and can work independently to meet deadlines without requiring constant supervision.",
-        "I have a flexible work style and can adapt to the needs of the project or team."
+        "I appreciate constructive feedback as it helps me grow and improve my skills.",
+        "I take feedback seriously and always look for ways to incorporate it into my work.",
+        "I welcome feedback from peers and supervisors, viewing it as an opportunity for development.",
+        "I actively seek feedback on my performance to identify areas for improvement.",
+        "I believe feedback is essential for professional growth, and I use it to refine my skills and approach."
       ]
     }
   ]
